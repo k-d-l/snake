@@ -39,11 +39,13 @@ namespace MySnake
 
             foreach (Point po in Pp)
                 po.Draw();
-                
-                
 
 
+            HorizontalLine hLine = new HorizontalLine(4,10,22,'+');
+            hLine.Draw();
 
+            VerticalLine vLine = new VerticalLine(10, 22, 5, '+');
+            vLine.Draw();
 
             Console.ReadLine();
         }
